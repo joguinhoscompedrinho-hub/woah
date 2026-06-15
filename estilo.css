@@ -1,0 +1,136 @@
+/* Limpa e zera margens anteriores */
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: Franklin Gothic Medium, Arial, sans-serif; 
+    background-color: #f4f4f4;
+}
+
+a { 
+    text-decoration: none; 
+    color: #000; 
+}
+
+/* Container que centraliza o site na tela */
+#all {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    min-height: 100vh;
+}
+
+/* Menu centralizado na horizontal com os itens em linha */
+ul.menu {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 15px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+ul.menu li a {
+    background-color: #ffa500;
+    border-radius: 2px;
+    padding: 6px 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+ul.menu li a:hover {
+    background-color: #ff8c00;
+}
+
+/* Área de Conteúdo Geral */
+.content {
+    padding: 30px;
+}
+
+.content h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 30px;
+}
+
+/* Distribuição simples de Imagem e Texto lado a lado */
+.main-layout {
+    margin-bottom: 30px;
+}
+
+.promo-img {
+    float: left;
+    width: 400px;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.text-content h2 {
+    color: #ff8c00;
+    margin-bottom: 12px;
+}
+
+.text-content p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Quebra o alinhamento flutuante para a lista de baixo não subir na imagem */
+.detalhes-home {
+    clear: both;
+    margin-top: 30px;
+}
+
+.detalhes-home h2 {
+    color: #ff8c00;
+    margin-bottom: 12px;
+}
+
+.detalhes-home ul {
+    padding-left: 20px;
+}
+
+.detalhes-home ul li {
+    margin-bottom: 10px;
+}
+
+/* Posicionamento da âncora à direita */
+.container-ancora {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.ancora {
+    font-size: 14px;
+    color: #ff8c00;
+    font-weight: bold;
+}
+
+/* Rodapé Simplesizado */
+footer {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    clear: both;
+}
+
+footer h5 {
+    font-size: 13px;
+    color: #333;
+    font-weight: normal;
+}
